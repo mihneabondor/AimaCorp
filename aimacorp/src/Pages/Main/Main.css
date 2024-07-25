@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+}
+
+.main-image {
+    min-height: 90vh;
+    width: 100vw;
+    background-image: url('https://t5b34d.webwave.dev/lib/t5b34d/unsplash-image-lz01d4mt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-left: 30vw;
+}
+
+@media only screen and (max-width: 1026px) {
+    .main-image {
+        align-items: end;
+    }
+
+    .main-text {
+        margin: 20px
+    }
+}
+
+.main-oferta-speciala {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.main-oferta-speciala-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.vl {
+  border-left: 3px solid black;
+  padding: 10px;
+  height: 100;
+}
+
+.main-oferta-speciala-detail-text {
+    margin: 30px;
+}
+
+.main-counting {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.motiv-image {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url('https://t5b34d.webwave.dev/lib/t5b34d/unsplash-image-lz01dl6d.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.motiv-text {
+    background-color: gray;
+    max-width: 30vw;
+    padding: 30px;
+    margin-left: 30vw;
+}
+
+@media only screen and (max-width: 1026px) {
+    .motiv-image {
+        align-items: end;
+    }
+
+    .motiv-text {
+        margin: 20px;
+        max-width: none;
+    }
+}
+
+.motiv-button {
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    min-width: 60%;
+}
+
+.main-procesare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-procesare-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
