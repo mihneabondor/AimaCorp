@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './Pages/Main/Main';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Contact from './Pages/Contact/Contact';
+import Oferta from './Components/Oferta/Oferta';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
         <Route path='/' element={<Main/>}/>
         <Route path='/desprenoi' element={<AboutUs/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/oferta' element={<Oferta/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

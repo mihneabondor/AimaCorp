@@ -1,0 +1,64 @@
+.oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oferta-descriere {
+    max-width: 80vw;
+}
+
+.oferta-arrow-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.oferta-cooperare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100vw;
+}
+
+.oferta-cooperare-title {
+    margin: 100px 20px 20px 20px;
+}
+
+.oferta-cooperare-checkmarks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.oferta-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.oferta-contact-image {
+    width: 50vw;
+    margin: 20px;
+}
+
+.oferta-contact-container{
+    margin: 30px;
+}
+
+.oferta-contact-container-button {
+    padding: 10px 30px 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1026px) {
+    .oferta-contact{
+        flex-direction: column;
+    }
+    .oferta-contact-image{
+        width: 80vw;
+    }
+}
