@@ -26,7 +26,7 @@ function Main() {
                 <br/>
                 <div className='main-oferta-speciala-detail'>
                     <p className='main-oferta-speciala-detail-text'>Consultație inițială gratuită: Programați o întâlnire cu echipa noastră de ingineri experimentați pentru a discuta nevoile proiectului dumneavoastră și a primi sfaturi de la experți cu privire la cele mai bune soluții pentru proiectul dumneavoastră de inginerie.</p>
-                    <div class="vl" />
+                    <div className="vl" />
                     <p className='main-oferta-speciala-detail-text'>10% reducere la primul proiect: Pentru clienții noi, oferim un discount special la primul proiect cu noi. Profitați de această ofertă cu durată limitată pentru a experimenta serviciile noastre de inginerie de înaltă calitate la un tarif redus.</p>
                 </div>
             </div>

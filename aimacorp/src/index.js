@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Main from './Pages/Main/Main';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import Contact from './Pages/Contact/Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Main/>}/>
         <Route path='/desprenoi' element={<AboutUs/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -2,7 +2,7 @@ import './FourReviewStack.css'
 
 function FourReviewStack(props) {
     return(
-        <div class="review-container">
+        <div className="review-container">
             <div className="box">
                 <h3> <b>{props.title1}</b> </h3>
                 <br/>

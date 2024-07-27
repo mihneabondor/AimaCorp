@@ -22,7 +22,7 @@ function NavigationBar() {
             <Nav.Link href='/oferta'>Ofertă</Nav.Link>
             <Nav.Link href='/preturi'>Prețuri</Nav.Link>
             <Nav.Link href='/portofoliu'>Portofoliu</Nav.Link>
-            <Nav.Link href='/contacte'>Contacte</Nav.Link>
+            <Nav.Link href='/contact'>Contacte</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
