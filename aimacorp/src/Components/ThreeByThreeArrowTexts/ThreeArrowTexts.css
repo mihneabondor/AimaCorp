@@ -1,0 +1,15 @@
+.threearrowtexts-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.threeearrowtexts-cell {
+    display: flex;
+    flex-direction: row;
+}
+
+.threeearrowtexts-cell-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

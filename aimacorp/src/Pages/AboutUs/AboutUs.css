@@ -1,0 +1,57 @@
+.aboutus-motivatie {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus-motivatie-image {
+    width: 40vw;
+    margin: 30px;
+}
+
+@media screen and (max-width: 1026px) {
+    .aboutus-motivatie {
+        flex-wrap: wrap;
+    }
+
+    .aboutus-motivatie-image {
+        width: 80vw;
+    }
+}
+
+.aboutus-motivatie-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.aboutus-motivatie-texts-button {
+    max-width: 80vw;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.cepotface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.cepotface-title {
+    margin: 50px;
+}
+
+.cepotface-arrowtexts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
