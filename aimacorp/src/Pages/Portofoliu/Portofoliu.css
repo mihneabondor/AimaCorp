@@ -1,0 +1,40 @@
+.portofoliu-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw;
+}
+
+.portofoliu-image {
+    max-width: 30vw;
+}
+
+.portofoliu-column {
+    max-width: 30vw;
+}
+
+@media screen and (max-width: 1026px) {
+    .portofoliu-image {
+        max-width: 98vw;
+    }
+}
+
+.portofoliu-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+  }
+  
+.img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+.img-hover-zoom:hover img {
+    transform: scale(1.3);
+  }
