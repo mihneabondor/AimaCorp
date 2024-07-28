@@ -1,0 +1,29 @@
+.pretcard {
+    background-color: gray;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.checkmarktext {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.checkmarktext-checkmark {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.pretcard-button {
+    width: 15vw;
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.pretcard-header {
+    display: flex;
+    flex-direction: row;
+}

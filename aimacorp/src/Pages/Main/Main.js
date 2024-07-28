@@ -15,7 +15,7 @@ function Main() {
             <div className='main-image'>
                 <div className='main-text'>
                     <h2>Excelență în Inginerie </h2>
-                    <p>Excelență în inginerie / Partnerul tău pentru soluții inovatoare <br/> și eficiente în inginerie. Bun venit la [Company Name].</p>
+                    <p>Excelență în inginerie / Partenerul tău pentru soluții inovatoare <br/> și eficiente în inginerie. Bun venit la [Company Name].</p>
                 </div>
             </div>
 

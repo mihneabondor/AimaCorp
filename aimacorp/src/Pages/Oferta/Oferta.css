@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 8vw;
 }
 
 .oferta-descriere {
@@ -30,8 +31,7 @@
 
 .oferta-cooperare-checkmarks {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 .oferta-contact {
@@ -60,5 +60,9 @@
     }
     .oferta-contact-image{
         width: 80vw;
+    }
+
+    .oferta-cooperare-checkmarks {
+        white-space: nowrap;
     }
 }

@@ -1,8 +1,8 @@
 import './Oferta.css'
 
 import NavigationBar from '../../Components/NavigationBar'
-import ThreeArrowTexts from '../ThreeByThreeArrowTexts/ThreeArrowTexts'
-import CheckmarkCard from '../CheckmarkCard/CheckmarkCard'
+import ThreeArrowTexts from '../../Components/ThreeByThreeArrowTexts/ThreeArrowTexts'
+import CheckmarkCard from '../../Components/CheckmarkCard/CheckmarkCard'
 
 import {useNavigate} from 'react-router-dom';
 
@@ -12,10 +12,8 @@ function Oferta() {
         <div>
             <NavigationBar/>
 
-            <br/> <br/>
-
             <div className='oferta'>
-                <h1>Oferta</h1>
+                <h1><b>Oferta</b></h1>
                 <br/>
                 <h4 className='oferta-descriere'>Introducere: Oferim servicii de proiectare și consultanță în inginerie, optimizare a costurilor de construcție, eficiență energetică, sisteme de climatizare personalizate, managementul proiectelor de construcții și implementarea tehnologiilor verzi.</h4>
                 <br/>
@@ -43,20 +41,22 @@ function Oferta() {
                         <CheckmarkCard
                             title='Stabilirea obiectivelor comune'
                             desc='Stabilirea obiectivelor comune'
+                            className='oferta-checkmarkcard'
                         />
+
                         <CheckmarkCard
                             title='Comunicare eficientă'
-                            desc='Comunicare eficientă / Comunicare deschisă și onestă este cheia.'
+                            desc='Comunicare deschisă și onestă este cheia.'
                         />
 
                         <CheckmarkCard
                             title='Împărțirea responsabilităților'
-                            desc='Împărtășirea responsabilităților / Distribuirea sarcinilor și responsabilităților în mod echitabil.'
+                            desc='Distribuirea sarcinilor și responsabilităților în mod echitabil.'
                         />
 
                         <CheckmarkCard
                             title='Rezolvarea Conflictelor'
-                            desc='Rezolvarea conflictelor constructiv / Abordarea conflictelor intr-un mod pozitiv.'
+                            desc='Abordarea conflictelor intr-un mod pozitiv.'
                         />
                     </div>
                 </div>
