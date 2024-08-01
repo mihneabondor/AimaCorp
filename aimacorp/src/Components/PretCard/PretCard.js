@@ -14,7 +14,7 @@ function PretCard(props) {
                     background: 'white',
                     padding: '7px 10px 0px 10px',
                     display: props.popular ? 'initial' : 'none'
-                }}>Cel mai popular</small>
+                }}>Most popular</small>
             </div>
             <br/>
             <b/>
@@ -42,7 +42,7 @@ function PretCard(props) {
                 <p>{props.text5}</p>
             </div>
 
-            <button className='pretcard-button' onClick={()=>{nav('/contact')}}>Alege</button>
+            <button className='pretcard-button' onClick={()=>{nav('/contact')}}>Choose</button>
         </div>
     )
 }

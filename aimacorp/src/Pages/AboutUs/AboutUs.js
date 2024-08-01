@@ -18,11 +18,11 @@ function AboutUs() {
             <div className="aboutus-motivatie">
                 <img src='https://t5b34d.webwave.dev/lib/t5b34d/unsplash-image-lz01gpvz.jpg' className='aboutus-motivatie-image' alt=''></img>
                 <div className='aboutus-motivatie-texts'>
-                    <h4><b>Munca mea nu e doar un job, ci și o pasiune.</b></h4>
+                    <h4><b>My work is not a just a job, it's a passion</b></h4>
                     <br/>
                     <h2><b>Andrei Popescu</b></h2>
                     <br/>
-                    <p>Sunt mândru proprietar al unei firme de inginerie specializată în design și consultanță. Cu o experiență în inginerie și o pasiune pentru soluții inovatoare, conduc echipa mea de profesioniști experimentați cu determinare și atenție la detalii. Sunt cunoscut pentru abordarea dinamică și mentalitatea orientată către rezultate, întotdeauna străduindu-mă să ofer servicii de cea mai înaltă calitate clienților mei.</p>
+                    <p>I'm the proud owner of an engineering company that specializes in design and consultancy. With a considerable background in engineering and a strong passion for innovative solutions, I proudly lead a team of experimented experts. I am known for my dynamic approach and results-oriented mindset, always striving to provide the highest quality service to my clients. </p>
                     <br/>
                     <button className='aboutus-motivatie-texts-button' onClick={() => {nav('/contact')}}>Contact</button>
                 </div>
@@ -31,39 +31,39 @@ function AboutUs() {
             <br/> <br/>
 
             <div className='cepotface'>
-                <h3 className='cepotface-title'><b>Ce pot face pentru tine?</b></h3>
+                <h3 className='cepotface-title'><b>What can I do for you?</b></h3>
                 <div className='cepotface-arrowtexts-container'>
                 <ThreeArrowTexts
-                    text1='Proiectare și consultanță'
-                    text2='Studii de fezabilitate'
-                    text3='Managementul proiectelor'
+                    text1='Engineering and consultancy'
+                    text2='Feasibility studies'
+                    text3='Project management'
                 />
 
                 <ThreeArrowTexts
-                    text1='Eficiență energetică'
-                    text2='Automatizare industrială'
-                    text3='Consultanță infrastructurală'
+                    text1='Energetic efficency'
+                    text2='Industrial automatization'
+                    text3='Punctual consultancy'
                 />
 
                 <ThreeArrowTexts
-                    text1='Control de calitate construcții'
-                    text2='Protecția mediului'
-                    text3='Asistență tehnică'
+                    text1='Quality control'
+                    text2='Environment protection'
+                    text3='Technical support'
                 />
                 </div>
             </div>
 
             <div className='reviews'>
-                <h3 className='cepotface-title'><b>Ce spun clienții despre mine?</b></h3>
+                <h3 className='cepotface-title'><b>What does our clients think?</b></h3>
                 <FourReviewStack
                     title1='Tech Solutions Co.'
-                    review1='Am angajat această firmă de inginerie pentru un proiect și am fost foarte impresionați de profesionalismul și expertiza lor. Au livrat soluții inovatoare și au fost foarte atenți la detalii. Recomandăm cu încredere!'
+                    review1='We hired this engineering firm for a project and were very impressed with their professionalism and expertise. They delivered innovative solutions and were very attentive to details. We recommend with confidence!'
                     title2='Innovate Engineering Ltd.'
-                    review2='Lucrul cu această firmă de inginerie a fost o experiență minunată. Au fost dedicați, eficienți și au furnizat servicii de cea mai înaltă calitate. Cu siguranță îi vom folosi pentru proiectele viitoare.'
+                    review2='Working with this engineering firm was a wonderful experience. They were dedicated, efficient and provided the highest quality service. We will definitely use them for future projects.'
                     title3='Precision Design Inc.'
-                    review3='Suntem foarte multumiți de munca efectuată de această firmă de inginerie. Abordarea lor dinamică și focusul asupra rezultatelor îi diferențiază cu adevărat. Echipa a fost experimentată și a livrat rezultate excepționale.'
+                    review3='We are very pleased with the work done by this engineering firm. Their dynamic approach and focus on results really sets them apart. The team was experienced and delivered exceptional results.'
                     title4='Futuretech Solutions'
-                    review4='Am lucrat cu multe firme de inginerie în trecut, dar niciuna nu ne-a impresionat atât de mult ca aceasta. Pasiunea lor pentru fiecare proiect, atenția la detalii și serviciile de înaltă calitate îi fac să iasă în evidență. Îi recomandăm cu încredere oricui are nevoie de servicii de inginerie.'
+                    review4='We have worked with many engineering firms in the past, but none have impressed us as much as this one. Their passion for each project, attention to detail and high quality service make them stand out. We highly recommend him to anyone in need of engineering services.'
                 />
             </div>
             

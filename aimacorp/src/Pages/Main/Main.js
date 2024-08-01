@@ -14,20 +14,20 @@ function Main() {
 
             <div className='main-image'>
                 <div className='main-text'>
-                    <h2>Excelență în Inginerie </h2>
-                    <p>Excelență în inginerie / Partenerul tău pentru soluții inovatoare <br/> și eficiente în inginerie. Bun venit la [Company Name].</p>
+                    <h2>Excellent in engineering </h2>
+                    <p>Excellent in engineering / Your partner in innovative <br/> and effective engineering solutions.</p>
                 </div>
             </div>
 
             <br/> <br/>
 
             <div className='main-oferta-speciala'>
-                <h2>Oferta specială pentru tine</h2>
+                <h2>Your special offer</h2>
                 <br/>
                 <div className='main-oferta-speciala-detail'>
-                    <p className='main-oferta-speciala-detail-text'>Consultație inițială gratuită: Programați o întâlnire cu echipa noastră de ingineri experimentați pentru a discuta nevoile proiectului dumneavoastră și a primi sfaturi de la experți cu privire la cele mai bune soluții pentru proiectul dumneavoastră de inginerie.</p>
+                    <p className='main-oferta-speciala-detail-text'>Free Initial Consultation: Schedule a meeting with our team of experienced engineers to discuss your project needs and get expert advice on the best solutions for your engineering project.</p>
                     <div className="vl" />
-                    <p className='main-oferta-speciala-detail-text'>10% reducere la primul proiect: Pentru clienții noi, oferim un discount special la primul proiect cu noi. Profitați de această ofertă cu durată limitată pentru a experimenta serviciile noastre de inginerie de înaltă calitate la un tarif redus.</p>
+                    <p className='main-oferta-speciala-detail-text'>10% discount on the first project: For new customers, we offer a special discount on the first project with us. Take advantage of this limited time offer to experience our high quality engineering services at a discounted rate.</p>
                 </div>
             </div>
 
@@ -36,59 +36,59 @@ function Main() {
             <div className='main-counting'>
                 <CountingCard
                     count='01.'
-                    title='Specializare în proiectare'
-                    desc='Specializare în proiectare și consultanță / Oferim soluții inovatoare și eficiente pentru clienții noștri.'
+                    title='Specialization in design'
+                    desc='Specializing in design and consulting / We offer innovative and effective solutions for our clients.'
                 />
 
                 <CountingCard
                     count='02.'
-                    title='Pasiune și dedicare'
-                    desc='Pasiunare și dedicare / Ne dedicăm cu pasiune fiecărui proiect pe care îl preluăm.'
+                    title='Passion and dedication'
+                    desc='Passion and dedication / We dedicate ourselves with passion to every project we take on.'
                 />
 
                 <CountingCard
                     count='03.'
-                    title='Echipă de profesioniști'
-                    desc='Echipă de profesioniști experimentați, oferind servicii de cea mai înaltă calitate.'
+                    title='Team of professionals'
+                    desc='Team of experienced professionals offering the highest quality service.'
                 />
 
                 <CountingCard
                     count='04.'
-                    title='Abordare dinamică'
-                    desc='Abordare dinamică și orientată către rezultate / Suntem recunoscuți pentru abordarea noastră dinamică.'
+                    title='Dynamic approach'
+                    desc='Dynamic and result-oriented approach / We are recognized for our dynamic approach.'
                 />
             </div>
 
             <div className='motiv-image'>
                 <div className='motiv-text'>
-                    <h2> <b>De ce să colaborezi cu noi?</b> </h2>
-                    <p>Ar trebui să colaborezi pentru că suntem o firmă de inginerie specializată, dedicată și pasionată de fiecare proiect pe care îl preluăm. Oferim soluții inovatoare și eficiente, datorită echipei noastre de profesioniști experimentați. Lucrăm cu determinare și atenție la detalii pentru a asigura succesul fiecărui proiect în parte. Recunoscuți pentru abordarea noastră dinamică și orientată către rezultate, vă garantăm mereu servicii de cea mai înaltă calitate. Cu noi, veți avea parte de experiență, expertiză și profesionalism, care vă vor ajuta să obțineți rezultate remarcabile în proiectele dumneavoastră.</p>
+                    <h2> <b>Why should you work with us?</b> </h2>
+                    <p>You should collaborate because we are a specialist engineering firm, dedicated and passionate about every project we take on. We offer innovative and effective solutions, thanks to our team of experienced professionals. We work with determination and attention to detail to ensure the success of each individual project. Recognized for our dynamic and result-oriented approach, we always guarantee you the highest quality service. With us, you will have experience, expertise and professionalism, which will help you achieve outstanding results in your projects.</p>
                     <button onClick={() => {nav('/contact')}} className='motiv-button'>Contact</button>
                 </div>
             </div>
 
             <div className='main-procesare'>
                 <br/> <br/>
-                <h2>Procesare</h2>
+                <h2>Processing</h2>
                 <div className='main-procesare-cards'>
                     <CheckmarkCard
-                        title='Primul pas'
-                        desc='Contactează-ne cu cerințele și obiectivele proiectului.'
+                        title='First step'
+                        desc='Contact us with your project requirements and goals.'
                     />
 
                     <CheckmarkCard
-                        title='Pasul doi'
-                        desc='Contactează-ne cu cerințele și obiectivele proiectului.'
+                        title='Second step'
+                        desc='The team will analyze the project and offer solutions.'
                     />
 
                     <CheckmarkCard
-                        title='Pasul trei'
-                        desc='Contactează-ne cu cerințele și obiectivele proiectului.'
+                        title='Third step'
+                        desc='Work closely with our experienced professionals.'
                     />
 
                     <CheckmarkCard
-                        title='Pasul patru'
-                        desc='Contactează-ne cu cerințele și obiectivele proiectului.'
+                        title='Fourth step'
+                        desc='Get consultancy and innovative designs'
                     />
                 </div>
             </div>

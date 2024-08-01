@@ -13,50 +13,49 @@ function Oferta() {
             <NavigationBar/>
 
             <div className='oferta'>
-                <h1><b>Oferta</b></h1>
+                <h1><b>Our offer</b></h1>
                 <br/>
-                <h4 className='oferta-descriere'>Introducere: Oferim servicii de proiectare și consultanță în inginerie, optimizare a costurilor de construcție, eficiență energetică, sisteme de climatizare personalizate, managementul proiectelor de construcții și implementarea tehnologiilor verzi.</h4>
+                <h4 className='oferta-descriere'>Introduction: We offer design and engineering consulting services, construction cost optimization, energy efficiency, customized air conditioning systems, construction project management and green technology implementation.</h4>
                 <br/>
                 <div className='oferta-arrow-container'>
                     <ThreeArrowTexts
-                        text1='Proiectare și consultanță'
-                        text2='Consultanță în construcție'
-                        text3='Proiectare electrice eficiente'
+                        text1='Design and consulting'
+                        text2='Construction consultancy'
+                        text3='Efficient electrical design'
                     />
                     <ThreeArrowTexts
-                        text1='Eficiență energetică'
-                        text2='Sisteme de climatizare'
-                        text3='Managementul proiectelor'
+                        text1='Energetic efficiency'
+                        text2='Air conditioning systems'
+                        text3='Project management'
                     />
                     <ThreeArrowTexts
-                        text1='Instalații sanitare'
-                        text2='Tehnologii verzi'
-                        text3='Structuri metalice inovatoare'
+                        text1='Plumbing'
+                        text2='Green technologies'
+                        text3='Innovative metal designs'
                     />
                 </div>
 
                 <div className='oferta-cooperare'>
-                    <h2 className='oferta-cooperare-title'><b>Cum arată cooperarea?</b></h2>
+                    <h2 className='oferta-cooperare-title'><b>How does our cooperation look like?</b></h2>
                     <div className='oferta-cooperare-checkmarks'>
                         <CheckmarkCard
-                            title='Stabilirea obiectivelor comune'
-                            desc='Stabilirea obiectivelor comune'
-                            className='oferta-checkmarkcard'
+                            title='Establishing common objectives'
+                            desc='Establishing common objectives'
                         />
 
                         <CheckmarkCard
-                            title='Comunicare eficientă'
-                            desc='Comunicare deschisă și onestă este cheia.'
+                            title='Efficient communication'
+                            desc='Open and honest communication is key.'
                         />
 
                         <CheckmarkCard
-                            title='Împărțirea responsabilităților'
-                            desc='Distribuirea sarcinilor și responsabilităților în mod echitabil.'
+                            title='Sharing responsabilities'
+                            desc='Distributing tasks and responsibilities fairly.'
                         />
 
                         <CheckmarkCard
-                            title='Rezolvarea Conflictelor'
-                            desc='Abordarea conflictelor intr-un mod pozitiv.'
+                            title='Conflict resolution'
+                           desc='Approaching conflicts in an optimistic fashion.'
                         />
                     </div>
                 </div>
@@ -66,8 +65,8 @@ function Oferta() {
                     <img className='oferta-contact-image' src='https://t5b34d.webwave.dev/lib/t5b34d/unsplash-image-lz01g4w7.jpg' alt=''/>
                     <div className='oferta-contact-container'>
                         <br/>
-                        <h3><b>Puneți-vă pariurile pe calitate.</b></h3>
-                        <h4 className='oferta-contact-container-desc'>Puneți pariu pe calitatea înaltă! Echipa noastră de ingineri specializați oferă soluții inovatoare și eficiente pentru fiecare proiect. Alegeți succesul cu noi!</h4>
+                        <h3><b>Bet on quality</b></h3>
+                        <h4 className='oferta-contact-container-desc'>Bet on high quality! Our team of specialized engineers offers innovative and efficient solutions for every project. Choose success with us!</h4>
                         <br/>
                         <button className='oferta-contact-container-button' onClick={() => {nav('/contact')}}> Contact </button>
                     </div>

@@ -12,9 +12,9 @@ function Portofoliu() {
             <NavigationBar/>
 
             <div className='portofoliu-title'>
-                <h1><b>Portofoliu</b></h1>
+                <h1><b>Portfolio</b></h1>
                 <br/>
-                <h4>Vă invităm să vizitați portofoliul nostru pentru a descoperi proiectele noastre inovatoare și eficiente. Suntem mândri de rezultatele noastre și suntem siguri că vă vor impresiona!</h4>
+                <h4>We invite you to visit our portfolio to discover our innovative and effective projects. We are proud of our results and are sure they will impress you!</h4>
             </div>
 
             <Container>

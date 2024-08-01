@@ -9,41 +9,41 @@ function Preturi() {
             <NavigationBar/>
 
             <div className='preturi'>
-                <h1><b>Prețuri</b></h1>
-                <h4>Pentru a afla mai multe despre tarifele noastre competitive și transparente, vă invităm să ne contactați pentru o evaluare personalizată a proiectului dumneavoastră. Oferim soluții de calitate la prețuri accesibile.</h4>
+                <h1><b>Prices</b></h1>
+                <h4>To learn more about our competitive and transparent rates, we invite you to contact us for a personalized evaluation of your project. We offer quality solutions at affordable prices.</h4>
             </div>
 
             <div className='preturi-preturi'>
                 <PretCard
                     title='Standard'
-                    desc='Pachet de abonament de bază / 50 USD pe lună'
+                    desc='Basic subscription package / $50 per month'
                     price='50'
-                    text1='Acces la unelte de proiectare'
-                    text2='Rapoarte lunare despre progres'
-                    text3='Suport prin e-mail'
-                    text4='Suport limitat telefonic'
-                    text5='10% discount la viitoare achiziții'
+                    text1='Access to basic tools'
+                    text2='Monthly progress reports'
+                    text3='Email support'
+                    text4='Limited phone support'
+                    text5='10% discount on future sales'
                 />
                 <PretCard
                     title='Pro'
-                    desc='Pachet de abonament de avansat / 100 USD pe lună'
+                    desc='Advanced Subscription Package / $100 per month'
                     price='100'
                     popular='true'
-                    text1='Acces la unelte de proiectare'
-                    text2='Rapoarte săptămânale despre progres'
-                    text3='Suport prin e-mail și telefonic'
-                    text4='Programare priotară pentru consultații'
-                    text5='20% discount la viitoare achiziții'
+                    text1='Acces to advanced design tools'
+                    text2='Weekly progress reports'
+                    text3='Email and phone support'
+                    text4='Priority consultancy scheduling'
+                    text5='20% discount on future sales'
                 />
                 <PretCard
                     title='Premium'
-                    desc='Acces la instrumente de proiectare premium'
+                    desc='Acces to premium tools'
                     price='150'
-                    text1='Acces la unelte premium'
-                    text2='Rapoarte zilnice despre progres'
-                    text3='Suport prin e-mail și telefonic prioritar'
-                    text4='Manager de proiect dedicat'
-                    text5='30% discount la viitoare achiziții'
+                    text1='Acces to premium tools'
+                    text2='Daily progress reports'
+                    text3='Priority email and phone support'
+                    text4='Dedicated project manager'
+                    text5='30% discount on future sales'
                 />
             </div>
 

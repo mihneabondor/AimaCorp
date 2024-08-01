@@ -8,27 +8,27 @@ function Contact() {
             <NavigationBar/>
             <div className='contact'>
                 <br/> <br/>
-                <h1>Contactează-mă</h1>
+                <h1>Contact us</h1>
                 <div className='contact-area'>
                     <div className='contact-area-form'>
                         <form name='contact' netlify method="post" data-netlify="true" onSubmit="submit">
-                            <p>Nume</p>
+                            <p>Name</p>
                             <input type="text" name="name" className='contact-area-form-cell'/>
                             <hr/>
                             
-                            <p>Adresa ta de e-mail</p>
+                            <p>Your email address</p>
                             <input type="text" name="email" className='contact-area-form-cell'/>
                             <hr/>
 
-                            <p>Telefon</p>
+                            <p>Phone</p>
                             <input type="text" name="phone" className='contact-area-form-cell'/>
                             <hr/>
 
-                            <p>Mesaj</p>
+                            <p>Message</p>
                             <textarea type="text" name="message" className='contact-area-form-cell'/>
                             <hr/>
                             <br/>
-                            <input type="submit" value="Trimite" className='contact-area-form-submit'/>
+                            <input type="submit" value="Send" className='contact-area-form-submit'/>
                             <input type="hidden" name="form-name" value="contact" />
                         </form>
                     </div>

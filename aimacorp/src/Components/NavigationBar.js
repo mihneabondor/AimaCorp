@@ -17,12 +17,12 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href='/'>Pagină de start</Nav.Link>
-            <Nav.Link href='/desprenoi'>Despre noi</Nav.Link>
-            <Nav.Link href='/oferta'>Ofertă</Nav.Link>
-            <Nav.Link href='/preturi'>Prețuri</Nav.Link>
-            <Nav.Link href='/portofoliu'>Portofoliu</Nav.Link>
-            <Nav.Link href='/contact'>Contacte</Nav.Link>
+            <Nav.Link href='/'>Home</Nav.Link>
+            <Nav.Link href='/aboutus'>About us</Nav.Link>
+            <Nav.Link href='/offer'>Offer</Nav.Link>
+            <Nav.Link href='/prices'>Prices</Nav.Link>
+            <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+            <Nav.Link href='/contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

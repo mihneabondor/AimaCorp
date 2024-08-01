@@ -19,11 +19,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main/>}/>
-        <Route path='/desprenoi' element={<AboutUs/>}/>
+        <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/oferta' element={<Oferta/>}/>
-        <Route path='/portofoliu' element={<Portofoliu/>} />
-        <Route path='/preturi' element={<Preturi/>} />
+        <Route path='/offer' element={<Oferta/>}/>
+        <Route path='/portfolio' element={<Portofoliu/>} />
+        <Route path='/prices' element={<Preturi/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
