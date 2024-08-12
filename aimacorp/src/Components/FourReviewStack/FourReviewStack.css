@@ -7,15 +7,23 @@
 }
 
 .box{
-    background-color:gray;
+    background-color: #3B3B3B;
     padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    color: white;
   }
   
 @media screen and (max-width: 1026px) {
     .review-container {
         grid-template-columns: auto;
     }
+}
+
+.checked {
+    color: gold;
+    width: 25px;
+    height: 25px;
+    scale: 1.25;
 }

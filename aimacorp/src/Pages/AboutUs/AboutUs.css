@@ -32,21 +32,9 @@
 }
 
 .cepotface {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-}
-
-.cepotface-title {
-    margin: 50px;
-}
-
-.cepotface-arrowtexts-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
 }
 
 .reviews {
