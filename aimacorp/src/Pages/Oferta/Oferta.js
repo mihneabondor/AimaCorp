@@ -1,6 +1,6 @@
 import './Oferta.css'
 
-import NavigationBar from '../../Components/NavigationBar'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
 import ThreeArrowTexts from '../../Components/ThreeByThreeArrowTexts/ThreeArrowTexts'
 import CheckmarkCard from '../../Components/CheckmarkCard/CheckmarkCard'
 

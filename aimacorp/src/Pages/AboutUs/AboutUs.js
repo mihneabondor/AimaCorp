@@ -1,6 +1,6 @@
 import './AboutUs.css'
 
-import NavigationBar from '../../Components/NavigationBar'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
 import ThreeArrowTexts from '../../Components/ThreeByThreeArrowTexts/ThreeArrowTexts';
 import FourReviewStack from '../../Components/FourReviewStack/FourReviewStack';
 

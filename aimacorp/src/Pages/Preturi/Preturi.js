@@ -1,6 +1,6 @@
 import './Preturi.css'
 
-import NavigationBar from '../../Components/NavigationBar'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
 import PretCard from '../../Components/PretCard/PretCard'
 
 function Preturi() {

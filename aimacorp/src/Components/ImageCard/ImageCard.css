@@ -1,0 +1,22 @@
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25vw;
+    text-align: center;
+}
+
+.imageCard img {
+    filter: brightness(0.75);
+    transition: 0.5s;
+}
+
+.imageCard img:hover {
+    filter: brightness(1);
+}
+
+@media screen and (max-width: 1026px) {
+    .imageCard {
+        max-width: 90vw;
+    }
+}

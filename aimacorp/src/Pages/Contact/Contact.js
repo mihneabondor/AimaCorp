@@ -1,6 +1,6 @@
 import './Contact.css'
 
-import NavigationBar from '../../Components/NavigationBar'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
 
 function Contact() {
     return (
