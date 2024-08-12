@@ -17,16 +17,14 @@ function Main() {
 
             <div className='main-image'>
                 <div className='main-text'>
-                    <div>
-                        <h1 style={{fontFamily: 'serif'}}><b>MAKE YOUR <br/> DREAMS COME TRUE</b></h1>
-                        <br/>
-                        <p>Discover customized CAD solutions for your projects</p>
-                        <br/> <br/>
-                        <CustomButton
-                            title='CONTACT'
-                            action={()=>{nav('/contact')}}
-                        />
-                    </div>
+                    <h1 style={{fontFamily: 'serif'}}><b>MAKE YOUR <br/> DREAMS COME TRUE</b></h1>
+                    <br/>
+                    <p>Discover customized CAD solutions <br/> for your projects</p>
+                    <br/> <br/>
+                    <CustomButton
+                        title='CONTACT'
+                        action={()=>{nav('/contact')}}
+                    />
                 </div>
             </div>
 
@@ -85,14 +83,12 @@ function Main() {
 
             <div className='main-image-footer'>
                 <div className='main-text-footer'>
-                    <div>
-                        <h3><b>Questions? Contact us!</b></h3>
-                        <br/> <br/>
-                        <CustomButton
-                            title='CONTACT'
-                            action={()=>{nav('/contact')}}
-                        />
-                    </div>
+                    <h3><b>Questions? Contact us!</b></h3>
+                    <br/> <br/>
+                    <CustomButton
+                        title='CONTACT'
+                        action={()=>{nav('/contact')}}
+                    />
                 </div>
             </div>
             

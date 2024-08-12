@@ -1,5 +1,5 @@
 .customsubtitle-line {
-    width: 10vw;
+    width: 90%;
     border: 5px solid;
     margin: 3px;
 }
@@ -24,4 +24,5 @@
 .customsubtitle{
     display: flex;
     flex-direction: column;
+    width: max-content;
 }

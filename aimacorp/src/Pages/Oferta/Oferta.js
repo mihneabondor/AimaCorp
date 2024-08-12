@@ -1,8 +1,10 @@
 import './Oferta.css'
 
-import NavigationBar from '../../Components/NavigationBar/NavigationBar'
-import ThreeArrowTexts from '../../Components/ThreeByThreeArrowTexts/ThreeArrowTexts'
-import CheckmarkCard from '../../Components/CheckmarkCard/CheckmarkCard'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar';
+import Footer from '../../Components/Footer/Footer';
+import CustomSubtitle from '../../Components/CustomSubtitle/CustomSubtitle';
+import CustomButton from '../../Components/CustomButton/CustomButton';
+import NumberedSection from '../../Components/NumberedSection/NumberedSection';
 
 import {useNavigate} from 'react-router-dom';
 
@@ -11,67 +13,57 @@ function Oferta() {
     return(
         <div>
             <NavigationBar/>
+            <br/> <br/> <br/>
 
-            <div className='oferta'>
-                <h1><b>Our offer</b></h1>
-                <br/>
-                <h4 className='oferta-descriere'>Introduction: We offer design and engineering consulting services, construction cost optimization, energy efficiency, customized air conditioning systems, construction project management and green technology implementation.</h4>
-                <br/>
-                <div className='oferta-arrow-container'>
-                    <ThreeArrowTexts
-                        text1='Design and consulting'
-                        text2='Construction consultancy'
-                        text3='Efficient electrical design'
-                    />
-                    <ThreeArrowTexts
-                        text1='Energetic efficiency'
-                        text2='Air conditioning systems'
-                        text3='Project management'
-                    />
-                    <ThreeArrowTexts
-                        text1='Plumbing'
-                        text2='Green technologies'
-                        text3='Innovative metal designs'
-                    />
-                </div>
-
-                <div className='oferta-cooperare'>
-                    <h2 className='oferta-cooperare-title'><b>How does our cooperation look like?</b></h2>
-                    <div className='oferta-cooperare-checkmarks'>
-                        <CheckmarkCard
-                            title='Establishing common objectives'
-                            desc='Establishing common objectives'
-                        />
-
-                        <CheckmarkCard
-                            title='Efficient communication'
-                            desc='Open and honest communication is key.'
-                        />
-
-                        <CheckmarkCard
-                            title='Sharing responsabilities'
-                            desc='Distributing tasks and responsibilities fairly.'
-                        />
-
-                        <CheckmarkCard
-                            title='Conflict resolution'
-                           desc='Approaching conflicts in an optimistic fashion.'
-                        />
+            <div className="aboutus-motivatie" style={{alignItems: 'stretch', marginRight: '30px'}}>
+                <div className='aboutus-motivatie-texts'>
+                    <CustomSubtitle
+                        title='WHO ARE WE?' />
+                    <br/>
+                    <p>Aima Innovations provides technical consulting and CAD design for engineering projects. Our dedicated and talented team works to provide customized and innovative solutions, leading clients to achieving their goals and realize their ideas faster and more efficiently. We ensure that each project is carried out with your needs in mind, and a high attention to detail, guaranteeing the highest quality of our services for you. Contact us to find out how we can help you make your dreams come true!</p>
+                    <br/> <br/>
+                    <div style={{display:'flex', flexDirection:'row'}}>
+                        <svg xmlns="http://www.w3.org/2000/svg" style={{width: '20px'}} viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                        <h4 style={{marginLeft: '10px', marginTop:'10px'}}><b>Cluj-Napoca, Cluj, Romania</b></h4>
                     </div>
+                    <br/> <br/>
+                    <CustomButton
+                        title='RESERVE'
+                        action={()=>{nav('/contact')}}
+                    />
                 </div>
+                <img src='https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_24/lzqv993q/element_763/rwdMode_1/626x565/20230828-GraviSub_Variant_2_assembly_v17_2023-Aug-28_05-05-40PM-000_CustomizedView57724694357.webp' className='aboutus-motivatie-image' style={{height: '50vh'}} alt=''></img>
+            </div>
 
+            <br/> <br/> <br/>
+
+            <div className='worthit'>
+                <CustomSubtitle
+                    title='WHY IS IT WORTH IT?'
+                />
                 <br/> <br/>
-                <div className='oferta-contact'>
-                    <img className='oferta-contact-image' src='https://t5b34d.webwave.dev/lib/t5b34d/unsplash-image-lz01g4w7.jpg' alt=''/>
-                    <div className='oferta-contact-container'>
-                        <br/>
-                        <h3><b>Bet on quality</b></h3>
-                        <h4 className='oferta-contact-container-desc'>Bet on high quality! Our team of specialized engineers offers innovative and efficient solutions for every project. Choose success with us!</h4>
-                        <br/>
-                        <button className='oferta-contact-container-button' onClick={() => {nav('/contact')}}> Contact </button>
-                    </div>
+                <div className='worthit-numberedSection'>
+                    <NumberedSection
+                        count='1'
+                        title="Precision and accuracy in design, ensuring each project meets the client's specifications and requirements."
+                    />
+                    <NumberedSection
+                        count='2'
+                        title="Customized solutions tailored to each client's unique needs and preferences. We don't do it for us, we do it for you."
+                    />
+                    <NumberedSection
+                        count='3'
+                        title='Fast delivery times, enabling efficient project completion and prompt delivery of results.'
+                    />
+                    <NumberedSection
+                        count='4'
+                        title='Expertise and experience in a variety of industries, guaranteeing high quality design solutions for any project.'
+                    />
                 </div>
             </div>
+
+            <br/> <br/> <br/>
+            <Footer/>
         </div>
     )
 }

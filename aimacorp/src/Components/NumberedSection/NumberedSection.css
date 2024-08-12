@@ -1,0 +1,16 @@
+.numberedSection{
+    display: flex;
+}
+
+.numberedSection-number {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    clip-path: circle(50%);
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
