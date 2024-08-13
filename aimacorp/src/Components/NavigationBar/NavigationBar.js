@@ -10,7 +10,7 @@ function NavigationBar() {
     <Navbar className="bg-body-tertiary" expand="lg" variant='dark'>
       <Container>
         <Navbar.Brand href="/">
-        Aima Corp
+        <Logo style={{width:'100px', height: 'min-content'}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
@@ -18,7 +18,7 @@ function NavigationBar() {
             <Nav.Link href='/'>Home</Nav.Link>
             <Nav.Link href='/aboutus'>About us</Nav.Link>
             <Nav.Link href='/offer'>Offer</Nav.Link>
-            <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+            <Nav.Link href='/projects'>Projects</Nav.Link>
             <Nav.Link href='/contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

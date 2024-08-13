@@ -14,7 +14,7 @@ function AboutUs() {
         <div>
             <NavigationBar/>
 
-            <br/> <br/>
+            <br/> <br/> <br/>
 
             <div className="aboutus-motivatie">
                 <div className='aboutus-motivatie-texts'>
@@ -27,11 +27,11 @@ function AboutUs() {
                 <img src='https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_21/lzqv8tkl/element_702/rwdMode_1/588x347/1.webp' className='aboutus-motivatie-image' alt=''></img>
             </div>
 
-            <br/> <br/>
+            <br/> <br/> <br/>
 
             <div className='cepotface'> </div>
 
-            <br/> <br/>
+            <br/> <br/> <br/>
             <div className='reviews'>
                 <CustomSutbtitle
                     title="OUR CLIENTS' OPINION"
@@ -46,6 +46,7 @@ function AboutUs() {
                     title4='Futuretech Solutions'
                     review4='We have worked with many engineering firms in the past, but none have impressed us as much as this one. Their passion for each project, attention to detail and high quality service make them stand out. We highly recommend him to anyone in need of engineering services.'
                 />
+                <br/>
                 <br/>
                 <br/>
             </div>
