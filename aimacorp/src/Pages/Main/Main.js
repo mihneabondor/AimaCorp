@@ -62,17 +62,17 @@ function Main() {
                 />
                 <div className='main-procesare-cards' style={{marginTop: '75px'}}>
                     <ImageCard
-                        image='https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_20/lzqv8uyf/element_682/rwdMode_1/380x300/unsplash-image.webp'
+                        image='https://i.ibb.co/q08Prvg/offer1.png'
                         title='Custom technical consultancy'
                         desc='We offer specialized consultante for a large variety of engineering projects'
                     />
                     <ImageCard
-                        image='https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_20/lzqv8uyf/element_685/rwdMode_1/380x300/unsplash-image.webp'
+                        image='https://i.ibb.co/LkRsD6Q/offer2.png'
                         title='CAD Designs'
                         desc='Our team offers high quality CAD Designs'
                     />
                     <ImageCard
-                        image='https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_20/lzqv8uyf/element_688/rwdMode_1/380x300/unsplash-image.webp'
+                        image='https://i.ibb.co/FHP0m2S/offer3.png'
                         title='Innovative solutions for successful projects'
                         desc='We are proud of our ability to deliver custom innovative solutions to each client'
                     />

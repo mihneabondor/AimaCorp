@@ -10,7 +10,7 @@ function NavigationBar() {
     <Navbar className="bg-body-tertiary" expand="lg" variant='dark'>
       <Container>
         <Navbar.Brand href="/">
-        <Logo style={{width:'100px', height: 'min-content'}}/>
+        <Logo style={{width:'100px', height: '100px'}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

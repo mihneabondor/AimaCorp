@@ -23,10 +23,9 @@ function Portofoliu() {
            height: 394,
         },
         {
-           src: "https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_25/lzqv93af/element_767/3/IMG-20240713-WA0085.webp",
+           src: "https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_25/lzqv93af/element_767/1/IMG-20240713-WA0051.webp",
            width: 592,
            height: 394,
-           thumbnailCaption: "By Raul Sabau and Chirita Mihai for Fluid Mechanics at UTCN",
         },
         {
         src: "https://jqw818.webwave.dev/files/dynamicContent/sites/jqw818/images/ro/webpage_25/lzqv93af/element_767/3/IMG-20240713-WA0085.webp",
